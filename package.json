@@ -1,0 +1,19 @@
+{
+  "name": "core-auto-deployer",
+  "version": "1.0.0",
+  "description": "X-Core Deployment Automator",
+  "repository": "https://github.com/XelticaMC/core-auto-deploy",
+  "author": "Xeltica",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^16.6.0",
+    "dotenv": "^10.0.0",
+    "github-webhook-handler": "^1.0.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node built/index.js"
+  }
+}
